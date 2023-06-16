@@ -28,8 +28,11 @@ const techsIcons = [
 const Skills = () => {
 	return (
 		<div className="Skills">
-			<h1 className="w-full text-center pb-8">Skills</h1>
-				<div className="grid grid-cols-3 md:grid-cols-4 gap-8">
+			<div className="w-full flex flex-col items-center sm:items-start">
+				<h1 className="w-24 mb-4 border-b-8 border-spring-green-600">Skills</h1>
+				<h4 className="w-full pb-8">These are the tecnologies I've worked</h4>
+			</div>
+				<div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-8">
 				{techsIcons.map((icon, index) => (
 					<motion.div 
 						key={index}

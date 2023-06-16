@@ -1,17 +1,16 @@
 import { motion } from "framer-motion";
+import FondoLanding from "../assets/fondo-inicio.png";
 
 const Landing = () => {
 	return (
-		<div className="w-full h-screen flex items-center text-center">
-			<motion.h1
-				initial={{ opacity: 0, scale: 0.5 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 2 }}
-				className="w-full text-black"
-			>
-				Hello! My name is Matias Medina
-			</motion.h1>
-    </div>
+		<motion.div 
+			initial={{ opacity: 0, scale: 0.5 }}
+			animate={{ opacity: 1, scale: 1 }}
+			transition={{ duration: 2 }}
+			className="w-full h-screen flex justify-center text-center items-center">
+			<h1 className="w-full text-black">Welcome to my Portfolio!</h1>
+			<img src={FondoLanding} alt="Fondo Landing"/>
+    </motion.div>
 	)
 }
 

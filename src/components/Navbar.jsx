@@ -27,8 +27,8 @@ const Navbar = () => {
 		<>
 			<nav className="Navbar">
 				<div className="w-full m-4">
-					<Link to="Home" smooth={true} spy={true} duration={500}>
-						<img className="w-16 cursor-pointer" src={Logo} alt="Logo" />
+					<Link className="w-16 block cursor-pointer" to="Home" smooth={true} spy={true} duration={500}>
+						<img src={Logo} alt="Logo" />
 					</Link>
 				</div>
 
@@ -47,7 +47,7 @@ const Navbar = () => {
 				</div>
 
 				{/* Buttons */}
-				<div className="w-full hidden md:flex justify-between">
+				<div className="w-full hidden lg:flex justify-between">
 					{options.map((option, index) => (
 						<Link className="w-full flex justify-center border-r last:border-r-0" key={index} to={option.to} smooth={true} spy={true} duration={500}>
 							<button className="w-full" type="button">
@@ -58,7 +58,7 @@ const Navbar = () => {
 				</div>
 
 				{/* Menu */}
-				<div className="w-full md:hidden flex justify-end pr-8">
+				<div className="w-full lg:hidden flex justify-end pr-8">
 					<button onClick={() => setOpen(!open)} type="button">
 						{open ? (
 							<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} className="w-8 h-10 stroke-black dark:stroke-white">
@@ -74,7 +74,7 @@ const Navbar = () => {
 				</div>
 			</nav>
 
-			<div className={`fixed inset-0 flex-col top-20 overflow-hidden bg-slate-800 z-10 ${open ? "flex" : "hidden"}`}>
+			<div className={`fixed inset-0 flex-col top-20 overflow-hidden  bg-white dark:bg-slate-800 z-10 ${open ? "flex" : "hidden"}`}>
 			{options.map((option, index) => (
 				<div className="w-full h-full flex justify-center items-center border-b-2 border-slate-500 last:border-b-0" key={index}>
 					<Link to={option.to} smooth={true} spy={true} duration={500}>

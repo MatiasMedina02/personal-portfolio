@@ -7,6 +7,7 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 import { AnimatePresence } from "framer-motion";
 import Landing from "./components/Landing";
+import Footer from "./components/Footer";
 
 const App = () => {
   const [show, setShow] = useState(true);
@@ -39,6 +40,7 @@ const App = () => {
             <Skills />
             <Work />
             <Contact />
+            <Footer />
           </>
         )}
       </AnimatePresence>
