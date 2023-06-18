@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 const options = [
 	{name: "Home", to: "Home"},
 	{name: "Skills", to: "Skills"},
-	{name: "Work", to: "Work"},
+	{name: "Works", to: "Work"},
 	{name: "Contact", to: "Contact"}
 ]
 
