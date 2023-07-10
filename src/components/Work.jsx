@@ -4,8 +4,10 @@ import Pokeapi from "../assets/projects/pokeapi.png";
 import Portfolio from "../assets/projects/personal-portfolio.png";
 import Rickymorty from "../assets/projects/rickymorty.png";
 import Ferrobox from "../assets/projects/ferrobox.png";
+import Cinego from "../assets/projects/cinego.png";
 
 const projects = [
+	{name: "CineGo - Proyecto Grupal", image: Cinego, url_github: "https://github.com/sebatora/CineGO", url_deploy: "https://cine-go-ten.vercel.app"},
 	{name: "Pokeapi", image: Pokeapi, url_github: "https://github.com/MatiasMedina02/pokeapi-project", url_deploy: "https://pokeapi-project-fawn.vercel.app"},
 	{name: "Rick & Morty", image: Rickymorty, url_github: "https://github.com/MatiasMedina02/rickymorty-project", url_deploy: "https://rickymorty-project.vercel.app"},
 	{name: "Ferrobox", image: Ferrobox, url_github: "https://github.com/MatiasMedina02/pagina-ferrobox", url_deploy: "https://pagina-ferrobox.vercel.app"},

@@ -58,7 +58,7 @@ const Contact = () => {
 		<div className="Contact">
 			<div className="w-full flex flex-col items-center text-center sm:items-start sm:text-start">
 				<h1 className="w-48 mb-4 border-b-8 border-spring-green-600">Contact Me</h1>
-				<h4 className="pb-8">If you wish to contact me, I will be happy to receive your messages.</h4>
+				<h4 className="pb-8">If you wish to contact me, I will be happy to receive your message.</h4>
 			</div>
 			<div className="w-full block lg:flex rounded-lg p-6 bg-spring-green-700">
 				<div className="w-1/2 pr-4 hidden lg:flex flex-col justify-between rounded-l-lg">
