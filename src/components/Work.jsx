@@ -7,6 +7,7 @@ import Ferrobox from "../assets/projects/ferrobox.png";
 import Cinego from "../assets/projects/cinego.png";
 
 const projects = [
+	{name: "Inspire Cooks", image: Cinego, url_github: "https://github.com/MatiasMedina02/inspire-cooks", url_deploy: "https://inspirecooks.vercel.app/"},
 	{name: "CineGo - Proyecto Grupal", image: Cinego, url_github: "https://github.com/sebatora/CineGO", url_deploy: "https://cine-go-ten.vercel.app"},
 	{name: "Pokeapi", image: Pokeapi, url_github: "https://github.com/MatiasMedina02/pokeapi-project", url_deploy: "https://pokeapi-project-fawn.vercel.app"},
 	{name: "Rick & Morty", image: Rickymorty, url_github: "https://github.com/MatiasMedina02/rickymorty-project", url_deploy: "https://rickymorty-project.vercel.app"},
