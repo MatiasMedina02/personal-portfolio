@@ -1,9 +1,8 @@
 const Footer = () => {
-	const year = new Date().getFullYear();
 	return (
 		<div className="Footer">
 			<div className="w-full text-center lg:text-start py-4 order-1 lg:order-none">
-			<h4 className="w-full">&copy; {year} All Rights Reserved. Created by Matías Medina.</h4>
+			<h4 className="w-full">&copy; 2022 All Rights Reserved. Created by Matías Medina.</h4>
 			</div>
 			<div className="w-full pt-2 flex justify-center lg:justify-end gap-x-10 stroke-black dark:stroke-white">
 				{/* Linkedin */}

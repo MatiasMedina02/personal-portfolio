@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
 import Pokeapi from "../assets/projects/pokeapi.png";
-import Portfolio from "../assets/projects/personal-portfolio.png";
 import Rickymorty from "../assets/projects/rickymorty.png";
 import Ferrobox from "../assets/projects/ferrobox.png";
 import Cinego from "../assets/projects/cinego.png";
@@ -9,11 +8,10 @@ import InspireCooks from "../assets/projects/inspire-cooks.png";
 
 const projects = [
 	{name: "Inspire Cooks", image: InspireCooks, url_github: "https://github.com/MatiasMedina02/inspire-cooks", url_deploy: "https://inspirecooks.vercel.app/"},
-	{name: "CineGo - Proyecto Grupal", image: Cinego, url_github: "https://github.com/sebatora/CineGO", url_deploy: "https://cine-go-ten.vercel.app"},
+	{name: "CineGo - Team Project", image: Cinego, url_github: "https://github.com/sebatora/CineGO", url_deploy: "https://www.youtube.com/watch?v=ifcMhuzFh3k&t=17s"},
 	{name: "Pokeapi", image: Pokeapi, url_github: "https://github.com/MatiasMedina02/pokeapi-project", url_deploy: "https://pokeapi-project-fawn.vercel.app"},
 	{name: "Rick & Morty", image: Rickymorty, url_github: "https://github.com/MatiasMedina02/rickymorty-project", url_deploy: "https://rickymorty-project.vercel.app"},
 	{name: "Ferrobox", image: Ferrobox, url_github: "https://github.com/MatiasMedina02/pagina-ferrobox", url_deploy: "https://pagina-ferrobox.vercel.app"},
-	{name: "Portfolio 1.0", image: Portfolio, url_github: "https://github.com/MatiasMedina02/personal-portfolio", url_deploy: "https://github.com/MatiasMedina02/portafolio-personal"},
 ]
 
 const Work = () => {

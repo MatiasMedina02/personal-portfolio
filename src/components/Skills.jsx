@@ -1,28 +1,25 @@
+/* eslint-disable react/no-unescaped-entities */
 import { motion } from "framer-motion";
 
 // Images
-import HTML from "../assets/techs/html.svg";
-import CSS from "../assets/techs/css.svg";
-import Javascript from "../assets/techs/javascript.svg";
 import ReactIcon from "../assets/techs/react.svg";
 import Redux from "../assets/techs/redux.svg";
 import Tailwind from "../assets/techs/tailwind-css.svg";
 import Node from "../assets/techs/node.svg";
 import Postgresql from "../assets/techs/postgresql.svg";
-import Jest from "../assets/techs/jest.svg";
-import Git from "../assets/techs/git.svg";
+import Typescript from "../assets/techs/typescript.svg";
+import Figma from "../assets/techs/figma.svg";
+import NextJS from "../assets/techs/nextjs.svg";
 
 const techsIcons = [
-	{name: "HTML", img: HTML},
-	{name: "CSS", img: CSS},
-	{name: "Javascript", img: Javascript},
 	{name: "React", img: ReactIcon},
+	{name: "Typescript", img: Typescript},
+	{name: "NextJS", img: NextJS},
 	{name: "Redux", img: Redux},
 	{name: "Tailwind", img: Tailwind},
 	{name: "Node", img: Node},
-	{name: "Jest", img: Jest},
-	{name: "Git", img: Git},
 	{name: "Postgresql", img: Postgresql},
+	{name: "Figma", img: Figma},
 ]
 
 const Skills = () => {
@@ -38,7 +35,7 @@ const Skills = () => {
 						key={index}
 						whileHover={{ scale: 1.1 }}
 						transition={{ type: "spring", stiffness: 500 }}
-						className="w-32 h-32 flex items-center justify-center p-3 bg-black dark:bg-white rounded-full cursor-pointer hover:shadow-[0_0_12px_#000] dark:hover:shadow-[0_0_12px_#fff]"
+						className="w-32 h-32 flex items-center justify-center p-3 border border-slate-300 rounded-full cursor-pointer hover:shadow-[0_0_12px_#000] dark:border-none dark:bg-white dark:hover:shadow-[0_0_12px_#fff]"
 					>
 						<motion.img 
 							src={icon.img}
